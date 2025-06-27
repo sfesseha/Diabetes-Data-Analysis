@@ -1,6 +1,15 @@
 # Diabetes-Data-Analysis
 Healthcare data analysis SQL project on diabetes.
 
+## Team Project
+
+This is a collaborative project developed by Team 4 for INST327 (Database Design and Modeling)
+
+### My Contributions:
+- Designed and normalized the database schema
+- Developed complex SQL queries for diabetes risk analysis
+- Created the EER diagram using MySQL Workbench
+- Co-authored the project report focusing on data ethics and privacy
 
 ## Introduction  
 Diabetes affects millions globally, leading to serious complications. Our goal is to design a structured, normalized database that integrates lifestyle, genetic, and medical data for better analysis of diabetes risks and progression.
