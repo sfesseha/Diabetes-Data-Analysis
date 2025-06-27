@@ -1,5 +1,6 @@
-# Diabetes-Data-Analysis
-Healthcare data analysis SQL project on diabetes.
+# Diabetes Data Analysis (SQL + Healthcare Project)
+
+---
 
 ## Team Project
 
@@ -17,17 +18,27 @@ Diabetes affects millions globally, leading to serious complications. Our goal i
 ## Database Description  
 We built a normalized relational schema centered around a `Patients` table linked to six other tables covering lab results, medical history, lifestyle factors, and more.
 
-## Key Features  
-- Normalized design for efficient querying  
-- Sample dataset of 15 filtered patients  
-- Complex views joining multiple tables for analysis  
+## Key Features
+- Fully normalized database schema  
+- Sample dataset of 15 patients with diverse health and lifestyle data  
+- Complex SQL views and queries to analyze diabetes risk factors and outcomes  
+- Emphasis on ethical considerations, including data privacy and bias mitigation  
 
 ## Ethical Considerations  
 We address representation, privacy, and genetic/environmental bias concerns in our data and analysis.
 
-## How to Use  
-- Run SQL scripts in the `SQL` folder to create tables and insert sample data  
-- Use provided views and queries to explore diabetes risk factors
+
+## How to Use
+1. Run the table creation script in your SQL client:
+   ```sql
+   \i create_tables.sql
+2. Insert the sample data
+   ```sql
+   \i insert_sample_data.sql
+3. Execute the analysis queries
+   ```sql
+    \i. Queries.sql
+You can find the full SQL script combining table creation, data insertion, and views here: [`Team4_DiabetesData_Backup.sql`]
 
 ## Future Work  
 - Scale dataset to 1000+ patients  
