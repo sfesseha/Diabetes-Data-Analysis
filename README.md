@@ -27,4 +27,4 @@ We address representation, privacy, and genetic/environmental bias concerns in o
 
 ---
 
-For full details, see `PROJECT_REPORT.md` 
+For full details, see `Team4_Project_Report.pdf` 
